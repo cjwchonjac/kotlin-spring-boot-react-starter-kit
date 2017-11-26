@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>React+Nashorn</title>
+    </head>
+    <body onload="init()">
+      <div id="root">/#html#/</div>
+      <script>
+        function init() {
+          var preloadedState = /#state#/;
+          ReactNashornApp.render('root', preloadedState);
+        }
+
+      </script>
+      <script src="/js/bundle.js"></script>
+    </body>
+</html>
